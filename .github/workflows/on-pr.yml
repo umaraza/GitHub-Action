@@ -1,0 +1,13 @@
+name: Run on PR
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Just say something
+        run: echo "👋 PR created or updated!"
