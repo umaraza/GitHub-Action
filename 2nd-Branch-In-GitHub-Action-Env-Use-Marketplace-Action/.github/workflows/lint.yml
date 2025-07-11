@@ -3,7 +3,7 @@ name: Lint Code Base
 on:
   push:
     branches:
-      - use-marketplace-action
+      - 2nd-Branch-In-GitHub-Action-Env-Use-Marketplace-Action
   pull_request:
     branches:
       - main
